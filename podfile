@@ -1,0 +1,12 @@
+# CocoaPods官方地址
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '9.0'
+
+target 'YTKNetWorkManager' do
+
+            pod 'YTKNetwork'
+            pod 'AFNetworking'
+            pod 'MJExtension'
+# use_framework !
+
+end
